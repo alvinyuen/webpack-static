@@ -1,9 +1,15 @@
 const css = require('./styles/app.scss');
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, {Component} from 'react';
 
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
-);
+
+class App extends Component {
+  render(){
+    return(
+    <h1 className="heading"> Hellow World!</h1>
+    );
+  }
+}
+
+
+export default App;
