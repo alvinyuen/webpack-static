@@ -1,0 +1,36 @@
+.header {
+  background: linear-gradient(to left, #306BAC, #141B41);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 98rem;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 1rem 0;
+  color: white;
+  font-size: 3.5rem;
+  font-style: italic;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: 100%
+}
+
+.listItem {
+
+}
+
+.link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left:2rem;
+}
+

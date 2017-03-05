@@ -1,0 +1,20 @@
+.post-title {
+  font-size: 3rem;
+  color: #2F89DE;
+}
+
+.post-link {
+  color: #2f89DE;
+  margin: 0;
+}
+
+.post-link:focus,
+.post-link:hover {
+  color: #30699E;
+  transition: color 0.3 ease;
+}
+
+.post-content {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+}
