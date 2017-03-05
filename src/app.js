@@ -1,4 +1,5 @@
-const css = require('./styles/app.scss');
+import 'normalize.css';
+import css from './styles/app.scss';
 
 import React, {Component} from 'react';
 
