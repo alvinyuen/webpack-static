@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const DashboardPlugin = require('webpack-dashboard/plugin');
 const {resolve, join} = require('path');
 
 module.exports = {
@@ -47,5 +48,6 @@ module.exports = {
         disable: false,
         allChunks: true
       }),
+      new DashboardPlugin(),
   ]
 }
