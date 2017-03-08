@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to left, #306BAC, #141B41);
+  background: #1E1E1E;
 }
 
 .container {
@@ -12,8 +12,8 @@
 .title {
   padding: 1rem 0;
   color: white;
-  font-size: 3.5rem;
-  font-style: italic;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .list {
@@ -28,8 +28,8 @@
 
 .link {
   color: white;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 300;
+  font-weight: 300;
   font-size: 2rem;
   margin-left:2rem;
 }

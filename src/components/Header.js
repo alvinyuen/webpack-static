@@ -1,6 +1,7 @@
 import React from 'react';
 
-import style from './Header.scss';
+import style from '../styles/Header.scss';
+import { Link } from 'react-router';
 
 const Header = () => (
     <header className="header">
@@ -8,8 +9,8 @@ const Header = () => (
         <h1 className="title"> Technical Blog </h1>
         <nav>
           <ul className="list">
-            <li><a href='#' className="link">Home</a></li>
-            <li><a href='#' className="link">About</a></li>
+            <li><Link to="/home" className="link">Home</Link></li>
+            <li><Link to="/about" className="link">About</Link></li>
           </ul>
         </nav>
       </div>
